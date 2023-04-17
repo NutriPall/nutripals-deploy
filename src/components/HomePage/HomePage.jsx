@@ -16,24 +16,24 @@ export default function HomePage() {
             we can experience unique flavors, aromas and textures that make us feel
             alive and connected with the world around us.</h2>
             <h2>Discover your recipe with us.</h2>
-    <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExample" className="carousel slide" data-bs-ride="carousel" data-bs-interval="true">
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active" data-bs-interval="3000">
           <img src={image1} className="d-block w-50" alt="..."/>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="3000">
           <img src={image2} className="d-block w-50" alt="..."/>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="3000">
           <img src={image3} className="d-block w-50" alt="..."/>
         </div>
-        <div className="carousel-item active">
+        <div className="carousel-item" data-bs-interval="3000">
           <img src={image4} className="d-block w-50" alt="..."/>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="3000">
           <img src={image5} className="d-block w-50" alt="..."/>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="3000">
           <img src={image6} className="d-block w-50" alt="..."/>
         </div>
       </div>
