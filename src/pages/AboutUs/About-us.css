@@ -1,0 +1,59 @@
+
+.team-card {
+    border: none !important;
+    background-color: var(--main-color) !important;
+    padding: 15px;
+  }
+
+.founding-story {
+    display: flex;
+    flex-direction: column;
+}
+
+#story-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.story-li {
+    font-size: 20px;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.story-li:hover {
+    background-color: var(--main-color-footer);
+}
+
+#about-us-img {
+    display: none;
+    max-height: 500px;
+    margin-right: 50px;
+    margin-left: 150px;
+}
+
+.about-us-title {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+  
+@media screen and (min-width: 1200px) {
+    #about-us-img {
+        display: block;
+    }
+     }
+
+
+@media only screen and (max-width: 700px){
+    .about-us-title {
+        margin-left: 10px;
+        font-size: 1.9em;
+    }
+
+    .story-li {
+        margin-right: 30px;
+    }
+}    
